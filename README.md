@@ -1,4 +1,4 @@
-# INTRODUCCIÓN
+## INTRODUCCIÓN
 
 *Página web relacionada con los lugares abandonados.*
 
