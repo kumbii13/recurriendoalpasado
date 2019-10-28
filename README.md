@@ -7,6 +7,5 @@ https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
 https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasadocss.html
 
 ### Ejercicios lenguaje de marcas
-
-### Práctica 01 CSS - https://kumbii13.github.io/recurriendoalpasado/css/practica01.html
+Práctica 01 CSS - https://kumbii13.github.io/recurriendoalpasado/css/practica01.html
 
