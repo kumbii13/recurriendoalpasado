@@ -1,6 +1,6 @@
 # INTRODUCCIÓN
 
-* Página web relacionada con los lugares abandonados.
+> Página web relacionada con los lugares abandonados.
 
 ### Página HTML
 https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
