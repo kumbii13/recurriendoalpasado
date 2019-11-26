@@ -3,7 +3,7 @@
 *Página web relacionada con los lugares abandonados.*
 
 #### Página CSS
-> https://kumbii13.github.io/recurriendoalpasadocss.html
+> https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasadocss.html
 
 #### Página HTML
 > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
