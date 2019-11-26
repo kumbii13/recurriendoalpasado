@@ -8,12 +8,14 @@
 #### Página HTML
 > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
 
-#### Ejercicios Lenguaje de Marcas HTML Y CSS 
+#### Prácticas Lenguaje de Marcas HTML Y CSS 
 
-1. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-principal.html
-2. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-fondo.html
-3. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-tablas.html
-4. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-tablas2.html
-5. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-tabla-dividida.html
-6. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-float-3bloques.html
-7. Práctica - https://kumbii13.github.io/recurriendoalpasado/Practica-banner-menu-contenido.html
+1. Práctica *HTML básico* - https://kumbii13.github.io/recurriendoalpasado/practica-html-basico.html 
+2. Práctica *Principal* - https://kumbii13.github.io/recurriendoalpasado/practica-principal.html
+3. Práctica *Imagen* - https://kumbii13.github.io/recurriendoalpasado/practica-Imagen.html
+4. Práctica *Imagen de fondo* - https://kumbii13.github.io/recurriendoalpasado/practica-fondo.html
+5. Práctica *Tablas* - https://kumbii13.github.io/recurriendoalpasado/practica-tablas.html
+6. Práctica *Tablas II* - https://kumbii13.github.io/recurriendoalpasado/practica-tablas2.html
+7. Práctica *Tablas III* - https://kumbii13.github.io/recurriendoalpasado/practica-tabla-dividida.html
+8. Práctica *Float (3 bloques) - https://kumbii13.github.io/recurriendoalpasado/practica-float-3bloques.html
+9. Práctica *Banner/Menú/Contenido* - https://kumbii13.github.io/recurriendoalpasado/practica-banner-menu-contenido.html
