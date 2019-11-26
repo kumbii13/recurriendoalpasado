@@ -11,7 +11,7 @@
 #### Prácticas Lenguaje de Marcas HTML Y CSS 
 
 1. Práctica *HTML básico* - https://kumbii13.github.io/recurriendoalpasado/practica-html-basico.html 
-2. Práctica *Principal* - https://kumbii13.github.io/recurriendoalpasado/practica-principal.html
+2. Práctica *Principal* - https://kumbii13.github.io/recurriendoalpasado/Practica-principal.html
 3. Práctica *Imagen* - https://kumbii13.github.io/recurriendoalpasado/practica-Imagen.html
 4. Práctica *Imagen de fondo* - https://kumbii13.github.io/recurriendoalpasado/practica-fondo.html
 5. Práctica *Tablas* - https://kumbii13.github.io/recurriendoalpasado/practica-tablas.html
