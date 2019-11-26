@@ -1,166 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- UTF-8 Acepta tildes -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <STYLE>BODY { background: url(img/fondo.jpg) center fixed repeat}</STYLE> 
-</head>    
 
+<style>
+
+BODY { 
+        background: url(img/fondo.jpg) center fixed repeat 
+        }   
+
+.header, .portada {
+  color: white;
+  position: center;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.portada {
+  color: white;
+  padding: 1%;
+  position: center;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.box {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  height: 280px;
+  background-color:#12100f;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px auto;
+  width: 48%;
+  height: 34px;
+  padding: 0;
+  right: 40px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Oswald;
+}
+                                
+li {
+  float: left;
+}
+                                
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+                                
+li a:hover:not(.active) {
+  background-color: #675a57;
+}
+                                
+.active {
+  background-color: #675a57;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+.image {
+  float:left;
+}  
+
+table {
+  border-collapse: separate;
+  border-spacing: 6px;
+}
+
+.h1 {
+  font-size: 18px;
+  color: #675a57;
+  font-family: Arial;
+}   
+
+.descripcion {
+  width:220px;
+  height:60px;
+  color: #c0c0c0;
+  text-align: justify;
+}
+
+.texto1 {
+  height:60px;
+  color: #c0c0c0;
+  text-align: justify;
+}
+
+</style>
+</head>
 <body>
 
-        <!-- TABLA BASE PRINCIPAL -->
-        <table border="0" align="center" width="928">
+<div class="header">
+  <img src="img/banner.png" align="center">
+  <ul>
+      <li><a class="active" href="#INICIO">INICIO</a></li>
+      <li><a href="#EXPLORACIÓN URBANA">EXPLORACIÓN URBANA</a></li>
+      <li><a href="#ENTREVISTAS">ENTREVISTAS</a></li>
+      <li><a href="#DOCUMENTALES">DOCUMENTALES</a></li>
+      <li><a href="#CONTACTO">CONTACTO</a></li>
+    </ul>
+</div>
 
-        <!-- TABLA BANNER -->    
+<div class="portada">
+    <img src="img/portada.jpg">
+</div>
+
+
+<div>
+  <h1 class="h1" style="margin-left:495px";>ENTREVISTAMOS A ROMAN ROBROEK</h1>
+  <p class="texto1" style="margin-left:495px; margin-right:500px";>La belleza de un enorme castillo abandonado y decadente le hizo descubrir la exploración urbana. Desde entonces lleva visitados más de 500 lugares viajando por toda Europa.</p>
+  
+</div>
+
+  <table border="0" align="center">
+
+      <tr>
+        <td rowspan="2" align="center"><img src="img/primera.png" width="100%"></td>
+        <td class="h1">Explorador urbano.</td>
+        <td rowspan="2" align="center"><img src="img/primera.png" width="100%"></td>
+        <td class="h1">Respeto.</td>
+        <td rowspan="2" align="center"><img src="img/primera.png" width="100%"></td>
+        <td class="h1">Ubicaciones.</td>
+      </tr>
+      <tr>
+        <td class="descripcion">Es aquella persona que cuando pasa por un lugar abandonado, siente curiosidad por entrar y por saber que conserva su interior.​</td>
+        <td class="descripcion">Los exploradores no forzamos ninguna entrada, ni rompemos ninguna ventana. Si no podemos entrar a un lugar, nos vamos.​</td>
+        <td class="descripcion">Por muy abandonado que esté un lugar, no deja de tener propietario. Por ello, evitamos dar cualquier referencia para protegerlo.​</td>    
+      </tr>
+  </table>
+
+  <tr>
+    <td> 
+    <br><table border="0" bgcolor="#675a57" align="center" width="928">
         <tr>
-                <td>
-                      <table border="0" align="center" width="928">
-                      <center><img src="img/banner.png" width="900" height="83"></center>
-                      </table>    
-                </td>        
-          </tr>
-
-        <!-- TABLA MENÚ -->    
-         <tr>
-                <td>
-                <table>
-                        <style>
-                                ul {
-                                  list-style-type: none;
-                                  margin: 0;
-                                  padding: 0;
-                                  overflow: hidden;
-                                  background-color: #333;
-                                }
-                                
-                                li {
-                                  float: left;
-                                }
-                                
-                                li a {
-                                  display: block;
-                                  color: white;
-                                  text-align: center;
-                                  padding: 8px 10px;
-                                  text-decoration: none;
-                                }
-                                
-                                li a:hover:not(.active) {
-                                  background-color: #675a57;
-                                }
-                                
-                                .active {
-                                  background-color: #675a57;
-                                }
-                                </style>
-                                </head>
-                                <body>
-                                
-                                <ul>
-                                  <li><a class="active" href="#INICIO">INICIO</a></li>
-                                  <li><a href="#EXPLORACIÓN URBANA">EXPLORACIÓN URBANA</a></li>
-                                  <li><a href="#ENTREVISTAS">ENTREVISTAS</a></li>
-                                  <li><a href="#DOCUMENTALES">DOCUMENTALES</a></li>
-                                  <li><a href="#CONTACTO">CONTACTO</a></li>
-                                </ul>
-                </table>
-                </td>
-          </tr>
-
-        <!-- TABLA IMAGEN PORTADA -->
-        <tr>
-              <td>
-                    <table border="0">
-                    <center><img src="img/portada.jpg" width="928" alt="HTML5 Icon"></center>
-                    </table>    
-              </td>        
+          <th><FONT FACE="Arial" size="2.5px" color="#c0c0c0">Recurriendo al pasado - Copyright 2019 ©</FONT></th>
         </tr>
- 
-        <!-- TABLA BASE TEXTO -->
-        <tr>
-            <td>
-                <table border="0" width="928">
-                <br>
-                <tr> 
-                  <td><FONT FACE="Arial" size="4px" color="#675a57"><u>ENTREVISTAMOS A ROMAN ROBROEK</u></FONT></td>
-                </tr>
+    </table>  
+    </td>
+  </tr>
 
-                <tr> 
-                  <td><FONT FACE="Arial" size="2.5px" color="#c0c0c0">La belleza de un enorme castillo abandonado y decadente le hizo descubrir la exploración urbana. Desde entonces lleva visitados más de 500 lugares viajando por toda Europa.<FONT></td>
-                </tr>
-                </table>      
-            </td>        
-        </tr>
-
-        <!-- TABLA BASE 3 IMAGENES -->
-        <tr>
-            <td>
-                <br>
-                <hr style="color:#675a57" />
-                <table border="0" width="928"> 
-
-                <tr>
-                  <th><img src="img/material.jpg" width="300" height="202"></th>
-                  <th><img src="img/entrevistas.jpg" width="300" height="202"></th>
-                  <th><img src="img/documentales.jpg" width="300" height="202"></th>
-                </tr>
-            
-                <tr style="color:#675a57">
-                  <th><FONT FACE="Arial" size="2px" color="#675a57">MATERIAL</FONT></th>
-                  <th><FONT FACE="Arial" size="2px" color="#675a57">ENTREVISTAS</FONT></th>
-                  <th><FONT FACE="Arial" size="2px" color="#675a57">DOCUMENTALES</FONT></th>
-                </tr>
-                
-                <tr style="color:#c0c0c0" SIZE="6">
-                  <td>Te informamos al detalle el material imprescindible para una expedición.</td>
-                  <td>Entrevistamos a exploradores urbanos del resto del mundo.</td>
-                  <td>Trabajo audiovisual referente a los lugares abandonados.</td>
-                </tr>
-                </table>
-                <hr style="color:#675a57" />
-            <td>
-        </tr>
-
-
-        <!-- VÍDEO DOCUMENTAL -->
-        <tr>
-            <td>
-            <table border="0" width="928">
-
-            <tr>
-              <td><FONT FACE="Arial" size="4px" color="#675a57"><u>BUSCADORES DEL OLVIDO</u></FONT></td>
-            </tr>
-
-            <tr> 
-              <td><FONT FACE="Arial" size="2px" color="#c0c0c0">Durante estos dos últimos años, por diferentes países de europa se filma a exploradores de lugares abandonados. Asistiendo en sus descubrimientos, valores y normas a seguir frente a los lugares abandonados. Personas que no están en ésta afición por modas pasajeras, sino por descubrir y reflejar en una fotografía o un vídeo un patrimonio olvidado, que tarde o temprano desaparecerá.</FONT></td>
-            </tr>
-
-            <tr> 
-              <br><td><br><center><iframe width="628" height="460" src="https://www.youtube.com/embed/elCne9EwFYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></center></iframe></td>
-            </tr> 
-
-            </table>     
-            </td>
-        </tr>
-
-        <!-- TABLA BASE COPYRIGHT -->
-        <tr>
-            <td>
-            <hr style="color:#675a57" />  
-            <table border="0" bgcolor="#333" width="928">
-                <tr>
-                  <th><FONT FACE="Arial" size="2.5px" color="#c0c0c0">© Copyright 2019</FONT></th>
-                </tr>
-            </table>  
-            <hr style="color:#675a57" />
-            </td>
-        </tr>
-
-</table>      
-
-</body> 
-
+</body>
 </html>
