@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+* {
+  box-sizing: border-box;
+}
+.header, .footer {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+}
+.column {
+  float: left;
+  padding: 15px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.menu {
+  width: 25%;
+}
+.content {
+  width: 75%;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: brown;
+  color: #ffffff;
+}
+.menu li:hover {
+  background-color:brown;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Urbexpain</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Inicio</li>
+      <li>Material</li>
+      <li>Entrevistas</li>
+      <li>Contacto</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Exploración urbana</h1>
+    <p>Exploración urbana es uno de los subtipos de exploración que habitualmente se practican y que puede incluir la visita a lugares abandonados o no.​ Normalmente se trata de la exploración de zonas alejadas de los núcleos urbanos, zonas industriales, o abandonadas.​</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright Urbexpain 2019</p>
+</div>
+
+</body>
+</html>
