@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>JUSTIFY CONTENT</title>
+
+
+<style>
+.flex-container {
+  display: flex;
+  /* justify-content: center; - Alinear items en el centro */ 
+  /* justify-content: flex-start; - Alinear items flex desde el comienzo */
+  /* justify-content: flex-end; - Alinear items desde el final */
+  /* justify-content: space-between; - El primer item al inicio, el último al final */
+  /* justify-content: space-around; - Distribuir items uniformemente - Los items tienen el mismo espacio a su alrededor */
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+
+</head>
+
+<body>
+    <h1>Ejemplos de Justify Content</h1>
+    
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>  
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>  
+    </div>
+    
+</body>
+
+</html>
