@@ -11,7 +11,9 @@
 #### 2ª EVALUACIÓN - Prácticas Lenguaje de Marcas HTML Y CSS 
 
 1. Práctica *FLEX* - https://kumbii13.github.io/recurriendoalpasado/Practica01-1-Flex-direction.html 
+
 1.1. Práctica *WRAP* - https://kumbii13.github.io/recurriendoalpasado/Practica01-2-Wrap.html
+
 1.2. Práctica *JUSTIFY-CONTENT* - https://kumbii13.github.io/recurriendoalpasado/Practica01-3-Justify-Content.html
 
 #### 1ª EVALUACIÓN- Prácticas Lenguaje de Marcas HTML Y CSS 
