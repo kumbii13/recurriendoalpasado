@@ -3,12 +3,16 @@
 *Página web relacionada con los lugares abandonados.*
 
 #### Página CSS
-> https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasadocss.html
+1ª EVAL > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasadocss.html
 
 #### Página HTML
-> https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
+1ª EVAL > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
 
-#### Prácticas Lenguaje de Marcas HTML Y CSS 
+#### 2ª EVALUACIÓN - Prácticas Lenguaje de Marcas HTML Y CSS 
+
+1. Práctica *FLEX* -  
+
+#### 1ª EVALUACIÓN- Prácticas Lenguaje de Marcas HTML Y CSS 
 
 1. Práctica *HTML básico* - https://kumbii13.github.io/recurriendoalpasado/Practica-html-basico.html 
 2. Práctica *Principal* - https://kumbii13.github.io/recurriendoalpasado/Practica-principal.html
