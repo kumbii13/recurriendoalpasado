@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+    .flex-container {
+      display: flex;
+      align-items: stretch;
+      background-color: #f1f1f1;
+    }
+    
+    .flex-container > div {
+      background-color:violet;
+      color: white;
+      width: 100px;
+      margin: 6px;
+      text-align: center;
+      line-height: 40px;
+      font-size: 15px;
+    }
+
+    .s1 {
+    flex-grow: 1;
+    }
+
+    .s2 {
+    flex-grow: 4;
+    }
+
+    .s3 {
+    flex-grow: 6;    
+    }
+
+    </style>
+
+    </head>
+
+    <body>
+    <h1>FLEX-GROW</h1>
+    
+    <div class="flex-container">
+      <div class="s1">ONE</div>
+      <div class="s2">TWO</div>
+      <div class="s3">THREE</div>
+    </div>
+    
+    </body>
+    </html>
+    
