@@ -10,6 +10,12 @@
 
 #### 2ª EVALUACIÓN - JAVASCRIPT 
 
+1. Práctica JavaScript - https://kumbii13.github.io/recurriendoalpasado/Practica01-javascript.html 
+*En este ejemplo se utiliza el método de "encontrar" un elemento HTML (con id = "demo" y "demo2") y cambia el contenido del elemento (innerHTML) a "Bienvenido a JavaScript!" / "Hello JavaScript!":*
+
+2. Práctica Atributos (Open/Close)  - https://kumbii13.github.io/recurriendoalpasado/Practica02-javascript-atributos.html 
+*En este ejemplo JavaScript cambia el valor de la src(fuente) atributo de un <img>tag*
+
 #### 2ª EVALUACIÓN - Prácticas Lenguaje de Marcas HTML Y CSS 
 
 1.1 Práctica *FLEX* - https://kumbii13.github.io/recurriendoalpasado/Practica01-1-Flex-direction.html 
