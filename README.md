@@ -15,6 +15,8 @@
 2. Práctica Atributos (Open/Close)  - https://kumbii13.github.io/recurriendoalpasado/Practica02-javascript-atributos.html 
 *En este ejemplo JavaScript cambia el valor de la src(fuente) atributo de un <img>tag*
 
+3. Práctica Ocultar Atributos (Open/Close)  - https://kumbii13.github.io/recurriendoalpasado/Practica02-javascript-ocultar-atributos.html 
+
 #### 2ª EVALUACIÓN - Prácticas Lenguaje de Marcas HTML Y CSS 
 
 1.1 Práctica *FLEX* - https://kumbii13.github.io/recurriendoalpasado/Practica01-1-Flex-direction.html 
