@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+<meta charset="UTF-8">
+<title>JAVASCRIPT P3</title>
+</head>
+<body>
+
+<h2>PRÁCTICA 3</h2>
+
+<p>¿Quieres mostrar la Práctica 2?</p>
+
+<button id="boton1" onclick="document.getElementById('myImage').src='img/open.png'">Open!</button>
+
+<img id="myImage" src="img/shop.png" style="width:100px">
+
+<button id="boton2" onclick="document.getElementById('myImage').src='img/closed.png'">Closed!</button>
+
+<script>
+
+function ocultar () {
+
+document.getElementById("myImage").style.display = "none";
+document.getElementById("boton1").style.display = "none";
+document.getElementById("boton2").style.display = "none";
+
+}
+
+function mostrar () {
+
+document.getElementById("myImage").style.display = "inline";
+document.getElementById("boton1").style.display = "inline";
+document.getElementById("boton2").style.display = "inline";
+document.getElementById("boton0").style.display = "none";
+
+}
+
+ocultar();
+
+</script>
+
+<br><br>
+
+<button id="boton0" onclick="document.getElementById(mostrar()).style.display = 'block'">Aceptar</button>
+
+
+</body>
+</html>
