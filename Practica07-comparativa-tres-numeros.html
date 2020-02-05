@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<h1>COMPARATIVA DE 3 NÚMEROS</h1>
+</head>
+
+<body>
+
+<!-- Campos de tipo texto-->
+<input type="text" id="x">
+<br>
+<br>
+<input type="text" id="y">
+<br>
+<br>
+<input type="text" id="z">
+<!-- Botón para ejecutar la función "sort_xyz"-->
+<input type="button" value="Ordenar" onclick="sort_xyz_input()">
+<p id="resultado"></p>
+
+<script>
+
+// Función de ordenación.
+function sort_xyz(x, y, z){
+
+    n1 = 0;
+    n2 = 0;
+    n3 = 0;
+
+    // IF si la evaluación es correcta. 
+    // ELSE si la evaluación es falsa.
+
+    if (x <= y) {
+        if (x <= z) {
+            // "X" es el valor más pequeño.
+            if (y <= z) {
+                console.log(x + "<=" + y + "<=" + z);
+                n1=x; n2=y; n3=z;
+            } else {
+                console.log(x + "<=" + z + "<=" + y);
+                n1=x; n2=z; n3=y;
+            }
+        } else {
+            // "Z" es el valor más pequeño.
+            console.log(z + "<=" + x + "<=" + y);
+            n1=z; n2=x; n3=y;
+        }
+        
+    } else {
+        // y < x
+        if (y <= z) {
+            // "Y" es el valor más pequeño.
+            if (x <= z) {
+                console.log(y + "<=" + x + "<=" + z);
+                n1=y; n2=x; n3=z;
+            } else {
+                console.log(y + "<=" + z + "<=" + x);
+                n1=y; n2=z; n3=x;
+            }
+        } else {
+            // "Z" es el valor más pequeño.
+            n1=z; n2=y; n3=x;
+        }
+    }
+
+    // Mostrar el mensaje en la consola web.
+    console.log(n1 + "<=" + n2 + "<=" + n3);
+    // Valores devueltos por la función cuando se completa.
+    return {x:n1, y:n2, z:n3};
+
+}
+
+// Definir valores y convertir a números
+function sort_xyz_input() {
+    x = parseInt(document.getElementById("x").value);
+    y = parseInt(document.getElementById("y").value);
+    z = parseInt(document.getElementById("z").value);
+
+    sorted_nums = sort_xyz(x,y,z);
+    console.log(sorted_nums);
+    document.getElementById("resultado").innerHTML = sorted_nums.x+"<="+sorted_nums.y+"<="+sorted_nums.z;  
+}
+
+</script>
+
+</body>
+
+</html>
