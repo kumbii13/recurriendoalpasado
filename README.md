@@ -1,3 +1,8 @@
+#### JUEGOS JAVASCRIPT
+
+1. Juego - Harria, Papera, Artazia)  - https://kumbii13.github.io/recurriendoalpasado/juegoclase.html
+2. Juego - Encontrar parejas - https://kumbii13.github.io/recurriendoalpasado/juegoclase.html
+
 ## INTRODUCCIÓN
 
 *Página web relacionada con los lugares abandonados.*
