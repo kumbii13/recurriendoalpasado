@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Harria, Papera eta Artazia.</title>
+</head>
+
+<body>
+
+<script>
+
+function aleatorioa(minimo, maximo)
+{
+	var numero = Math.floor( Math.random() * (maximo - minimo + 1) + minimo);
+	return numero;
+}
+
+/*Baloreak*/
+var harria = 0;
+var papera = 1;
+var artazia = 2;
+
+var aukerak = ["Harria", "Papera", "Artazia"];
+
+var JokalariAukera;
+var MakinaAukera = aleatorioa(0,2); 
+
+/*Aukeratzeko leihoa*/
+JokalariAukera = prompt("ZEIN AUKERATZEN DUZU?\nHarria: 0\nPapera: 1\nArtazia: 2" , 0);
+
+/*Makinako aukera*/
+alert("Makina " + aukerak[MakinaAukera] + " aukeratu du");
+
+if(JokalariAukera == harria)
+{
+  alert("Harria aukeratu duzu!");
+  if(MakinaAukera == harria)
+  {
+  	alert("Berdinketa!");
+  }
+  
+  else if(MakinaAukera == papera)
+  {
+    alert("Galdu duzu!");
+  }
+  
+  else if(MakinaAukera == artazia)
+  {
+    alert("Irabazi duzu!");
+  }
+
+}
+  
+else if(JokalariAukera == papera)
+{
+  alert("Papera aukeratu duzu!");
+  if(MakinaAukera == harria)
+  {
+    alert("Irabazi duzu!");
+  }
+  
+  else if(MakinaAukera == papera)
+  {
+    alert("Berdinketa!");
+  }
+  
+  else if(MakinaAukera == artazia) 
+  {
+    alert("Galdu duzu!");
+  }
+  
+}
+
+else if(JokalariAukera == artazia)
+{
+	alert("Artazia aukeratu duzu!");
+	if(MakinaAukera == harria)
+    {
+      alert("Galdu duzu!");
+    }
+        
+    else if(MakinaAukera == papera)
+    {
+      alert("Irabazi duzu!");	
+    }
+
+    else if(MakinaAukera == artazia)
+    { 
+      alert("Berdinketa!");
+    }
+
+}
+
+/* Zenbaki bat txarto sartzen badugu, hurrengo mensajea ateratuko da*/
+else
+{
+	alert("0,1 edo 2 aukeratu behar duzu!");
+}
+</script>
+
+</body>
+</html>

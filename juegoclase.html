@@ -1,0 +1,216 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JUEGO-CLASE</title>
+</head>
+
+<body>
+
+  <h1 class="titulo">LOCALIZA LAS PAREJAS</h1>
+
+      <!-- Estilo del tablero-->  
+      <style type="text/css">
+
+        .titulo {
+          font-family: Helvetica, sans-serif;
+          color: purple;
+          font-size: 18px;
+          text-decoration-line: underline;
+          margin: 14px
+        }
+
+        /* Tamaño tablero completo */
+        table {
+	        width: 100%;
+	        height: 100%;                      
+        }
+
+        /* Tamaño casillas */
+        #juego-clase {
+	        width: 250px;
+	        height: 250px;  
+        }        
+
+        /* Estilo de las casillas iniciales */
+        td {
+	        width: 25%;
+	        height: 25%;
+	        background-color: green;
+        }
+
+        /* Estilo del contenido de la celda */
+        .contenidocelda {
+	        color: orange;
+	        font-size: 40px;
+	        text-align: center;
+        }
+
+        /* Estilo del botón */
+        input {
+	        width: 90px;
+	        height: 30px;
+          background-color: grey;    
+        }
+
+        /* Posición del botón */
+        .boton {
+	        margin-left: 75px;
+        }
+    </style>
+
+	  <div id="juego-clase">
+    <!-- Creación del tablero de juego tamaño 4x4 mediante tablas.-->
+    <!-- Añadimos una id a cada celda y que nos aparezca una "X" en cada casilla.-->
+		  <table>
+        <tr>
+          <td id="0" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="1" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="2" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="3" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+        </tr>
+        <tr>
+          <td id="4" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="5" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="6" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="7" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+        </tr>
+        <tr>
+          <td id="8" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="9" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="10" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="11" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+        </tr>
+        <tr>
+          <td id="12" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="13" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="14" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+          <td id="15" class="contenidocelda" onclick="girarCarta()" data-valor="valor">X</td>
+        </tr>
+    	</table>
+    </div>
+
+    <!-- Botón para iniciar una partida.-->
+    <div class="boton">
+        <input type="button" value="Comenzar" onclick="Comenzar()" />	
+    </div>
+
+<script>
+
+  //VARIABLES
+
+  //Aqui tenemos la variable cartas, tipo array (lista). Con la extructura (Nombre, seleccion) y 10 elementos en su interior. 
+  var cartas = new Array( 
+    {nombre: '1', seleccion: false}, {nombre: '2', seleccion: false}, 
+    {nombre: '3', seleccion: false}, {nombre: '4', seleccion: false}, 
+    {nombre: '5', seleccion: false}, {nombre: '6', seleccion: false}, 
+    {nombre: '7', seleccion: false}, {nombre: '8', seleccion: false}, 
+    {nombre: '1', seleccion: false}, {nombre: '2', seleccion: false}, 
+    {nombre: '3', seleccion: false}, {nombre: '4', seleccion: false}, 
+    {nombre: '5', seleccion: false}, {nombre: '6', seleccion: false}, 
+    {nombre: '7', seleccion: false}, {nombre: '8', seleccion: false} );
+		
+  //otras variables para realizar las jugadas. 
+  var jugada1 = "";
+  var jugada2 = "";
+  var identificadorJ1 = "";
+  var identificadorJ2 = "";
+
+  //FUNCIONES 
+
+  //FUNCION PRINCIPAL
+
+  //al pulsar el boton iniciar, este llama a la funcion comenzar. 
+  function Comenzar () {
+    //Ordenamos las cartas (Array de elementos) de manera aleatoria. 
+    cartas.sort(function() {return Math.random() - 0.5});
+    //Usamos un for para recorrer la tabla con contenido de las celdas del html y asignarles los numeros de la variable Cartas.
+    //la tabla se recorre del 0 al 15 pero los valores de cartas han cambiado al reorganizarse aleatoriamente. 
+    for ( var i = 0 ; i < 16 ; i++ ) {
+      var carta = cartas[i].nombre;
+      var dato = document.getElementById( i.toString() );
+      dato.dataset.valor = carta;
+      //Despues de asignarles los valores en el HTML les asignamos el color verde. 
+      colorCambio( i, 'green', 'X');
+    }	
+  }
+
+  //FUNCION DE GIRO EN SELECCION
+  function girarCarta () {
+    var evento = window.event;
+    //Recogemos el valor que se le ha asignado a la carta pulsada. 
+    jugada2 = evento.target.dataset.valor;
+
+    identificadorJ2 = evento.target.id;
+
+    //miramos si ya hemos jugado una vez. 
+    if ( jugada1 !== "" ) {
+     //Si hemos jugado comparamos los valores de las 2 jugadas. 
+      if ( jugada1 === jugada2 && identificadorJ1 !== identificadorJ2 && cartas[parseInt(identificadorJ2)].seleccion != true && cartas[parseInt(identificadorJ1)].seleccion != true) {
+      //Obtenemos valos y si hemos elegido correctamente (comprueba): 
+      cartas[parseInt(identificadorJ1)].seleccion = true;
+      cartas[parseInt(identificadorJ2)].seleccion = true;
+
+      //Cambiamos el color de la jugada 2. 
+      colorCambio(identificadorJ2, "purple", jugada2);
+      vaciar();
+      comprobar();
+
+      }else if(identificadorJ1 !== identificadorJ2){
+       //Si no tiene el mismo valor. Volvemos a poner las dos cartas a verde con el valor X para esperar una nueva jugada. 
+        var self = this;
+        setTimeout(function(){
+        colorCambio(self.identificadorJ1, "green", "X")
+        colorCambio(self.identificadorJ2, "green", "X")
+        vaciar()
+        },200); 
+
+        colorCambio(identificadorJ2, "purple", jugada2);
+      }
+
+    } else if(jugada2 !== "valor") {
+      //Si no hemos jugado anteriormente. 
+      //Marcamos con morado la carta seleccionada. 
+      colorCambio(identificadorJ2, "purple", jugada2);
+
+      jugada1 = jugada2;
+      identificadorJ1 = identificadorJ2;
+    }
+  };
+
+  //FUNCION PARA VACIAR CELDAS
+  function vaciar ()  {
+    //Reiniciamos los valores de las variables para jugar otra vez. 
+    jugada1 = "";	
+    jugada2 = "";	
+
+    identificadorJ1 = "";
+    identificadorJ2 = "";
+  }
+
+  //FUNCION DE CAMBIO DE COLOR
+  function colorCambio (posicion, color, contenido) {
+    //Cambiamos el color del elemnto que se nos indica y el contenido. 
+    document.getElementById(posicion.toString()).style.backgroundColor = color;
+    document.getElementById(posicion.toString()).innerHTML = contenido;
+  }	
+
+  //FUNCION DE COMPROBACION
+  function comprobar () {
+    //Hacemos un recuento de las cartas que se han acertado. 
+    var aciertos = 0;
+    for( var i = 0 ; i < 16 ; i++ ){
+     if ( cartas[i].seleccion == true ) {
+      aciertos ++;
+      }
+
+  }
+    //Si el recuento es de 16 cambiamos el texto del elemento "juego-clase" a "¡ENHORABUENA! Has completado el juego."
+    if(aciertos == 16){
+    document.getElementById("juego-clase").innerHTML = "¡ENHORABUENA! Has completado el juego.";
+    }
+  }
+
+</script>
+</body>
+</html>
