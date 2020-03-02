@@ -1,6 +1,6 @@
 #### JUEGOS JAVASCRIPT
 
-1. Juego - Harria, Papera, Artazia)  - https://kumbii13.github.io/recurriendoalpasado/juegoclase.html
+1. Juego - Harria, Papera, Artazia)  - https://kumbii13.github.io/recurriendoalpasado/harria_papera_artazia.html
 2. Juego - Encontrar parejas - https://kumbii13.github.io/recurriendoalpasado/juegoclase.html
 
 ## INTRODUCCIÓN
