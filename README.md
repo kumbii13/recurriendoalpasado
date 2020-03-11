@@ -1,17 +1,11 @@
-#### JUEGOS JAVASCRIPT
+## LENGUAJE DE MARCAS - UNAI COMBARRO
+
+#### 3ª EVALUACIÓN - BOOTSTRAP
+
+#### 2ª EVALUACIÓN - JUEGOS JAVASCRIPT
 
 1. Juego - Harria, Papera, Artazia)  - https://kumbii13.github.io/recurriendoalpasado/harria_papera_artazia.html
 2. Juego - Encontrar parejas - https://kumbii13.github.io/recurriendoalpasado/juegoclase.html
-
-## INTRODUCCIÓN
-
-*Página web relacionada con los lugares abandonados.*
-
-#### Página CSS
-1ª EVAL > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasadocss.html
-
-#### Página HTML
-1ª EVAL > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
 
 #### 2ª EVALUACIÓN - JAVASCRIPT 
 
@@ -49,6 +43,12 @@
 3.5 Práctica *FORM AREA DE TEXTO* - https://kumbii13.github.io/recurriendoalpasado/Practica03-5-form-area-de-texto.html
 
 #### 1ª EVALUACIÓN- Prácticas Lenguaje de Marcas HTML Y CSS 
+
+#### Página CSS
+1ª EVAL > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasadocss.html
+
+#### Página HTML
+1ª EVAL > https://kumbii13.github.io/recurriendoalpasado/recurriendoalpasado.html
 
 1. Práctica *HTML básico* - https://kumbii13.github.io/recurriendoalpasado/Practica-html-basico.html 
 2. Práctica *Principal* - https://kumbii13.github.io/recurriendoalpasado/Practica-principal.html
