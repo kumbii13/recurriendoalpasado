@@ -1,8 +1,5 @@
 ## LENGUAJE DE MARCAS - UNAI COMBARRO
 
-#### 3ª EVALUACIÓN - BOOTSTRAP
-Práctica Bootstrap - https://kumbii13.github.io/recurriendoalpasado/practica-bootstrap01.html
-
 #### 2ª EVALUACIÓN - JUEGOS JAVASCRIPT
 
 1. Juego - Harria, Papera, Artazia)  - https://kumbii13.github.io/recurriendoalpasado/harria_papera_artazia.html
