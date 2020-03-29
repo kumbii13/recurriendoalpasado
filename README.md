@@ -1,6 +1,8 @@
 ## LENGUAJE DE MARCAS - UNAI COMBARRO
 
-https://kumbii13.github.io/recurriendoalpasado//practica-bootstrap02.html
+Bootstrap (formato dispositivo)
+1. Práctica 16 - 18 Marzo https://kumbii13.github.io/recurriendoalpasado//practica-bootstrap02.html
+2. Práctica 23 - 25 Marzo https://kumbii13.github.io/recurriendoalpasado//practica-bootstrap02.html
 
 #### 2ª EVALUACIÓN - JUEGOS JAVASCRIPT
 
